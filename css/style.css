@@ -2,6 +2,7 @@
   --clr-darkblue: #3644af;
   --clr-lightblue: #1fb6ea;
   --clr-white: #ffffff;
+  --clr-lightgrey: #ffffffb3;
   --clr-grey: #666666;
   --clr-coal: #2a3443;
   --clr-black: #333333;
@@ -41,9 +42,12 @@ body {
   align-items: center;
 }
 
-.titulo {
+.titulo__principal {
+  font-weight: 800;
+  font-size: 50px;
   font-family: var(--font-head);
   text-align: center;
+  max-width: 500px;
 }
 
 .parrafo {
@@ -136,7 +140,26 @@ body {
 .card__contents {
   display: flex;
   flex-flow: column;
-  
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.img__card {
+  max-width: 50%;
+}
+
+.titulo__card {
+  font-family: var(--font-head);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.parrafo__card {
+  color: var(--clr-lightgrey);
+  font-family: var(--font-sub);
+  font-weight: 600;
+  line-height: 2em;
 }
 
 .container__landing--associates {
