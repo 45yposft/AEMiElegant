@@ -1,0 +1,20 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+img, video, svg, picture {
+  max-width: 100%;
+  display: block;  
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;  
+}
