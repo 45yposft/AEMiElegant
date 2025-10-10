@@ -4,5 +4,7 @@ Este proyecto es para la familiarizacion de git y github, creacion de repositori
 
 ##    Layout elegido
 
-Elegi una plantilla de la pagina https://elegantthemes.com, en concreto parte del layout de Web Agency.
+Elegi una plantilla de la pagina https://elegantthemes.com, en concreto parte del layout de Web Agency. Se puede ver la prevision de como se vera la pagina en la carpeta docs.
+
+
 
