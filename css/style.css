@@ -6,6 +6,7 @@
   --clr-coal: #2a3443;
   --clr-black: #333333;
   --font-head: 'Courier New', Courier, monospace;
+  --font-sub: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -35,5 +36,39 @@ body {
 }
 
 .container__landing--receiver {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
   font-family: var(--font-head);
+  text-align: center;
+}
+
+.parrafo {
+  font-family: var(--font-sub);
+  text-align: center;
+  max-width: 500px;
+}
+
+.container__landing--pb {
+  margin-top: 2.75%;
+}
+
+.container__landing--button {
+  display: flex;
+  justify-content: center;
+}
+
+.boton__trabajo {
+  background-color: var(--clr-white);
+  color: var(--clr-darkblue);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: var(--font-head);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 14px 28px;
 }
