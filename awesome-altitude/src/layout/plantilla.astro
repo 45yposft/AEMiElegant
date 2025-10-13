@@ -1,13 +1,15 @@
 ---
 import Section from "../components/section.astro";
 import Hero from "../components/hero.astro";
+const { titulo, descripcion } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina</title>
+  <meta name="description" content={descripcion} />
+  <title>{titulo}</title>
 </head>
 <body>
   <Hero />
